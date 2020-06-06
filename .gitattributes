@@ -48,6 +48,11 @@ LICENSE   text
 *.tokens   text
 
 
+## Kotlin
+#########
+*.kt   text
+
+
 ## Gradle
 #########
 *.gradle       text
