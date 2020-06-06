@@ -5,6 +5,17 @@
 
 root = true
 
+## Our New Languages
+####################
+[*.sandy]
+indent_style = unset
+indent_size = unset
+end_of_line = unset
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+
 ## Repository Configuration
 ###########################
 [.{git*,editorconfig,*.yml}]
