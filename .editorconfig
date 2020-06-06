@@ -8,10 +8,10 @@ root = true
 ## Our New Languages
 ####################
 [*.sandy]
+charset = utf-8
+end_of_line = unset
 indent_style = unset
 indent_size = unset
-end_of_line = unset
-charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = false
 
@@ -19,17 +19,17 @@ insert_final_newline = false
 ## Repository Configuration
 ###########################
 [.{git*,editorconfig,*.yml}]
+charset = utf-8
+end_of_line = lf
 indent_style = space
 indent_size = unset
-end_of_line = lf
-charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
 
 ## Shell Scripts
 ################
-[*.sh]
+[{*.sh,gradlew}]
 charset = utf-8
 end_of_line = lf
 indent_style = tab
@@ -69,5 +69,18 @@ indent_style = space
 indent_size = unset
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+## Gradle
+#########
+[*.{gradle,properties}]
+charset = utf-8
+end_of_line = unset
+indent_style = space
+trim_trailing_whitespace = true
+insert_final_newline = true
+[*.properties]
+indent_size = unset
+[*.gradle]
+indent_size = 2
 
 # EOF #
